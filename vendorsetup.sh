@@ -64,8 +64,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
   
 # A/B-Related
     export OF_AB_DEVICE_WITH_RECOVERY_PARTITION=1
-    export OF_VIRTUAL_AB_DEVICE=1
-    export OF_VANILLA_BUILD=0
+    export FOX_VIRTUAL_AB_DEVICE=1
+    export FOX_VANILLA_BUILD=0
   
 # Other Patches
     export OF_NO_RELOAD_AFTER_DECRYPTION=1
